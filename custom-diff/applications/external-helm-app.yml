@@ -30,5 +30,6 @@ spec:
         - /metadata/annotations/creation
     - group: ''
       kind: Secret
+      namespace: example02
       jsonPointers:
         - /data/my-password
